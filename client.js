@@ -17,7 +17,8 @@ const connect = function() {
   });
   conn.on('connect', () => {
     console.log('Succesfully connected ');
-    conn.write('Name: dfg');
+    conn.write('Name: AGP');
+    // conn.write('Move: up');
   });
   
 
